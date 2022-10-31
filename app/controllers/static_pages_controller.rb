@@ -4,4 +4,7 @@ class StaticPagesController < ApplicationController
 
   def mine
   end
+
+  def feedback
+  end
 end
