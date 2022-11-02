@@ -1,7 +1,12 @@
+<% provide(:title, "About") %>
+<!DOCTYPE html>
 
+<html>
 <head> 
-    <title>About | Group Rails Application</title>
-    <h1>Welcome to our about page!</h1>
+    <title><%= yield(:title) %> | Group Rails Application</title>
+    <h1>Welcome to our <i>About</i> page!</h1>
 </head>
 <p>This is our spectacular website for COS 243</p>
+<p>Written by Jaylyn Henegar</p>
 <a href="https://cse.taylor.edu/html/">Taylor CSE Website</a>
+</html>
